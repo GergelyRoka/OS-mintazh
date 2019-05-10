@@ -1,8 +1,16 @@
 # OS-mintazh
 gyak4.zip mintazh
 
+Változást követő:	mintazh.c
+1. feladat 		minta2_1.c
+2. feladat 		minta2_2.c
+3. feladat
+4. feladat
+
 4. gyakorlat. Feladatmegoldás
-	Feladat: Választunk! Egy választási körzetben 3 tagból áll a választási bizottság: az elnökből (szülő) és két tagból (gyerekek). Az első gyerek ellenőrzi a választók adatait, a második pedig lepecsételi és kiadja a választási lapot.
+
+Feladat: Választunk! Egy választási körzetben 3 tagból áll a választási bizottság: az elnökből (szülő) és két tagból (gyerekek). Az első gyerek ellenőrzi a választók adatait, a második pedig lepecsételi és kiadja a választási lapot.
+
 1) Az elnök megvárja, amíg mindkét tag nem jelzi, hogy kész a munkára (jelzéssel), ezután a parancssori argumentumokon keresztül "fogadja" a szavazókat (hány darab érkezik). A szülő generáljon minden szavazóhoz egy véletlen azonosítószámot! A választók azonosítószámait egy csövön keresztül továbbítja az adatellenőrző tagnak, aki kiírja, hogy fogadta az adatokat és kiírja a képernyőre. A szülő bevárja a gyerekek befejezését. 
 
 2) Az ellenőrzést végző tag a választói azonosításhoz adatellenőrzést végez. Minden azonosító 20% eséllyel hibás. A hibás azonosítójú választó nem szavazhat. Az ellenőrzést végző gyerek így a szavazhat/nem szavazhat jelzéssel csővezetékbe írja az adatokat, majd erről jelzést küld a választási lapokat kezelő testvérének, aki ezt a képernyőre írja. A választási lapokat kezelő testvér egy összesítést végez, megadja, hogy hány érvényes/érvénytelen szavazó jelent meg, majd ezt az összesített adatot továbbítja csövön keresztül a szülőnek, aki erről jegyzőkönyvet (érvényes-érvénytelenek százalékos aránya) készít egy szöveges fájlba. A szülő ezt a képernyőre is kiírja. 
